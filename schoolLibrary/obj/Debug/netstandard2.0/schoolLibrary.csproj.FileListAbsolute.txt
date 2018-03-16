@@ -1,0 +1,9 @@
+G:\c_sharp\schoolApp\schoolLibrary\bin\Debug\netstandard2.0\schoolLibrary.deps.json
+G:\c_sharp\schoolApp\schoolLibrary\bin\Debug\netstandard2.0\schoolLibrary.dll
+G:\c_sharp\schoolApp\schoolLibrary\bin\Debug\netstandard2.0\schoolLibrary.pdb
+G:\c_sharp\schoolApp\schoolLibrary\obj\Debug\netstandard2.0\schoolLibrary.csprojResolveAssemblyReference.cache
+G:\c_sharp\schoolApp\schoolLibrary\obj\Debug\netstandard2.0\schoolLibrary.csproj.CoreCompileInputs.cache
+G:\c_sharp\schoolApp\schoolLibrary\obj\Debug\netstandard2.0\schoolLibrary.AssemblyInfoInputs.cache
+G:\c_sharp\schoolApp\schoolLibrary\obj\Debug\netstandard2.0\schoolLibrary.AssemblyInfo.cs
+G:\c_sharp\schoolApp\schoolLibrary\obj\Debug\netstandard2.0\schoolLibrary.dll
+G:\c_sharp\schoolApp\schoolLibrary\obj\Debug\netstandard2.0\schoolLibrary.pdb
