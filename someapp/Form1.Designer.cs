@@ -34,6 +34,8 @@
             this.schoolNameTextBox = new System.Windows.Forms.TextBox();
             this.twitterTextBox = new System.Windows.Forms.TextBox();
             this.twitterName = new System.Windows.Forms.Label();
+            this.testTeacher = new System.Windows.Forms.Button();
+            this.TestStudent = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // schoolNameLabel
@@ -78,13 +80,35 @@
             this.twitterName.TabIndex = 4;
             this.twitterName.Text = "twitter name";
             // 
+            // testTeacher
+            // 
+            this.testTeacher.Location = new System.Drawing.Point(529, 110);
+            this.testTeacher.Name = "testTeacher";
+            this.testTeacher.Size = new System.Drawing.Size(75, 23);
+            this.testTeacher.TabIndex = 5;
+            this.testTeacher.Text = "testTeacher";
+            this.testTeacher.UseVisualStyleBackColor = true;
+            this.testTeacher.Click += new System.EventHandler(this.testTeacher_Click);
+            // 
+            // TestStudent
+            // 
+            this.TestStudent.Location = new System.Drawing.Point(529, 159);
+            this.TestStudent.Name = "TestStudent";
+            this.TestStudent.Size = new System.Drawing.Size(75, 23);
+            this.TestStudent.TabIndex = 6;
+            this.TestStudent.Text = "testStudent";
+            this.TestStudent.UseVisualStyleBackColor = true;
+            this.TestStudent.Click += new System.EventHandler(this.TestStudent_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(392, 216);
+            this.ClientSize = new System.Drawing.Size(654, 388);
+            this.Controls.Add(this.TestStudent);
+            this.Controls.Add(this.testTeacher);
             this.Controls.Add(this.twitterName);
             this.Controls.Add(this.twitterTextBox);
             this.Controls.Add(this.schoolNameTextBox);
@@ -104,6 +128,8 @@
         private System.Windows.Forms.TextBox schoolNameTextBox;
         private System.Windows.Forms.TextBox twitterTextBox;
         private System.Windows.Forms.Label twitterName;
+        private System.Windows.Forms.Button testTeacher;
+        private System.Windows.Forms.Button TestStudent;
     }
 }
 

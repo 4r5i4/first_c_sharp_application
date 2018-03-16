@@ -24,6 +24,8 @@ namespace someapp
             
             schoolNameTextBox.Text = someSchoolLib.schoolName;
 
+            var student = new Student();
+            var teacher = new Teacher(); // for testing only -- remove later
 
             try
             {
@@ -54,6 +56,20 @@ namespace someapp
 
                 MessageBox.Show("this is second exception");
             }
+        }
+
+        private void testTeacher_Click(object sender, EventArgs e)
+        {
+            var teacher = new Teacher();
+            var gp = teacher.ComputeGradeAverage();
+            MessageBox.Show("TEACHER::: the grade average is " + gp);
+        }
+
+        private void TestStudent_Click(object sender, EventArgs e)
+        {
+            var student = new Student();
+            var gp = student.ComputeGradeAverage();
+            MessageBox.Show("STUDENT::: the grade average is " + gp);
         }
     }
 }
