@@ -70,6 +70,7 @@ namespace someapp
             var student = new Student();
             var gp = student.ComputeGradeAverage();
             MessageBox.Show("STUDENT::: the grade average is " + gp);
+            MessageBox.Show(student.sendInternalMessage("Congratulations! you have won a scholarship"));
         }
     }
 }
